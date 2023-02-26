@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        
+        header {
+            background-color: #2f2f2f;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin-top: 0;
+            font-size: 3em;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+        
+        a:hover {
+            color: #2f2f2f;
+        }
+        
+        .recipe-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 50px auto;
+            max-width: 800px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+        
+        .recipe-card img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        
+        .recipe-card h2 {
+            font-size: 2.5em;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+        
+        .recipe-card p {
+            font-size: 1.2em;
+            line-height: 1.5;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+        
+        .recipe-card a {
+            background-color: #2f2f2f;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: all 0.3s ease;
+        }
+        
+        .recipe-card a:hover {
+            background-color: #fff;
+            color: #2f2f2f;
+            border: 2px solid #2f2f2f;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Odin Recipes</h1>
+    </header>
+    
+    <div class="recipe-card">
+        <h2>The Ultimate Pastrami Burger</h2>
+        <img src="https://tinyurl.com/4ffd4b47" alt="Pastrami Burger">
+        <p>This burger is the ultimate indulgence for any meat lover. Two well seasoned smash beef patties topped with hot and spicy pastrami, melted cheese, and our homemade sauce, it's a flavor explosion in every bite.</p>
+        <a href="recipes/pastrami_burger.html">Get the Recipe</a>
+    </div>
+</body>
+</html>
